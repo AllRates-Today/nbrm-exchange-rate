@@ -1,6 +1,6 @@
 {
   "name": "nbrm-exchange-rate",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Official National Bank of North Macedonia (North Macedonia) daily exchange rates — 31 currencies vs MKD, history since 1993. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbrm",
