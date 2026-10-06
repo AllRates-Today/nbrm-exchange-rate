@@ -85,10 +85,10 @@ const pair = await getRate('EUR', 'MKD', { apiKey: 'art_live_...' });
 {
   bank: 'nbrm',
   name: 'National Bank of North Macedonia',
-  rate_date: '2026-09-25',   // National Bank of North Macedonia's own publication date
+  rate_date: '2026-10-06',   // National Bank of North Macedonia's own publication date
   source: 'EUR',
   target: 'MKD',
-  rate: 61.545,
+  rate: 61.6333,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbrm',
   name: 'National Bank of North Macedonia',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "EUR", "quote": "MKD", "type": "reference", "value": 61.545 },
-    { "base": "EUR", "quote": "MKD", "type": "sell", "value": 61.8527 },
-    { "base": "EUR", "quote": "MKD", "type": "buy", "value": 61.2373 },
+    { "base": "EUR", "quote": "MKD", "type": "reference", "value": 61.6333 },
+    { "base": "EUR", "quote": "MKD", "type": "sell", "value": 61.9415 },
+    { "base": "EUR", "quote": "MKD", "type": "buy", "value": 61.3251 },
     // … the rest of the published table (31 currencies vs MKD)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbrm-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'MKD', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'EUR', target: 'MKD', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'MKD',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 61.545, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 61.6333, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
