@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbrm-exchange-rate.svg)](https://github.com/AllRates-Today/nbrm-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbrm-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/MKD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbrm%3Fsource%3DEUR%26target%3DMKD&query=%24.rate&label=EUR%2FMKD%20published%20by%20National%20Bank%20of%20North%20Macedonia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbrm/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbrm%3Fsource%3DEUR%26target%3DMKD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbrm/)
 
 **Official National Bank of North Macedonia (North Macedonia) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of North Macedonia itself prints, every business day.**
 
@@ -32,6 +34,70 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of North Macedonia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by National Bank of North Macedonia — 51 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | MKD | buy | 38.0994 |
+| AUD | MKD | reference | 38.2909 |
+| AUD | MKD | sell | 38.4824 |
+| BRL | MKD | reference | 10.9923 |
+| CAD | MKD | buy | 38.4744 |
+| CAD | MKD | reference | 38.6677 |
+| CAD | MKD | sell | 38.861 |
+| CHF | MKD | buy | 65.8141 |
+| CHF | MKD | reference | 66.1448 |
+| CHF | MKD | sell | 66.4755 |
+| CNY | MKD | reference | 8.228 |
+| CZK | MKD | reference | 2.5278 |
+| DKK | MKD | buy | 8.2123 |
+| DKK | MKD | reference | 8.2536 |
+| DKK | MKD | sell | 8.2949 |
+| EUR | MKD | buy | 61.3782 |
+| EUR | MKD | reference | 61.6866 |
+| EUR | MKD | sell | 61.995 |
+| GBP | MKD | buy | 72.467 |
+| GBP | MKD | reference | 72.8312 |
+| GBP | MKD | sell | 73.1954 |
+| HKD | MKD | reference | 7.0272 |
+| HUF | MKD | reference | 0.1684 |
+| IDR | MKD | reference | 0.0031 |
+| ILS | MKD | reference | 17.9202 |
+| INR | MKD | reference | 0.5698 |
+| JPY | MKD | buy | 0.3467 |
+| JPY | MKD | reference | 0.3484 |
+| JPY | MKD | sell | 0.3501 |
+| KRW | MKD | reference | 0.041 |
+| MXN | MKD | reference | 3.0616 |
+| MYR | MKD | reference | 13.4781 |
+| NOK | MKD | buy | 5.7272 |
+| NOK | MKD | reference | 5.756 |
+| NOK | MKD | sell | 5.7848 |
+| NZD | MKD | reference | 30.8217 |
+| PHP | MKD | reference | 0.8753 |
+| PLN | MKD | reference | 14.0988 |
+| RON | MKD | reference | 11.5444 |
+| RSD | MKD | reference | 0.5253 |
+| RUB | MKD | reference | 0.6467 |
+| SEK | MKD | buy | 5.4831 |
+| SEK | MKD | reference | 5.5107 |
+| SEK | MKD | sell | 5.5383 |
+| SGD | MKD | reference | 43.0172 |
+| THB | MKD | reference | 1.6371 |
+| TRY | MKD | reference | 1.1205 |
+| USD | MKD | buy | 54.8706 |
+| USD | MKD | reference | 55.1463 |
+| USD | MKD | sell | 55.422 |
+| ZAR | MKD | reference | 3.312 |
+
+Source: [Official rates published by NBRM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbrm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
