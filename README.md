@@ -33,70 +33,73 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/nbrm').th
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest National Bank of North Macedonia table](https://allratestoday.com/api/open/central-bank/nbrm/table.svg)](https://allratestoday.com/central-bank-rates-api/nbrm/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by National Bank of North Macedonia — 51 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by National Bank of North Macedonia — 51 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MKD | buy | 37.8443 |
-| AUD | MKD | reference | 38.0345 |
-| AUD | MKD | sell | 38.2247 |
-| BRL | MKD | reference | 10.8831 |
-| CAD | MKD | buy | 38.5455 |
-| CAD | MKD | reference | 38.7392 |
-| CAD | MKD | sell | 38.9329 |
-| CHF | MKD | buy | 65.9602 |
-| CHF | MKD | reference | 66.2917 |
-| CHF | MKD | sell | 66.6232 |
-| CNY | MKD | reference | 8.2254 |
-| CZK | MKD | reference | 2.5329 |
-| DKK | MKD | buy | 8.2108 |
-| DKK | MKD | reference | 8.2521 |
-| DKK | MKD | sell | 8.2934 |
-| EUR | MKD | buy | 61.376 |
-| EUR | MKD | reference | 61.6844 |
-| EUR | MKD | sell | 61.9928 |
-| GBP | MKD | buy | 72.5399 |
-| GBP | MKD | reference | 72.9044 |
-| GBP | MKD | sell | 73.2689 |
-| HKD | MKD | reference | 7.0133 |
-| HUF | MKD | reference | 0.1696 |
-| IDR | MKD | reference | 0.0031 |
-| ILS | MKD | reference | 17.7412 |
-| INR | MKD | reference | 0.579 |
-| JPY | MKD | buy | 0.3467 |
-| JPY | MKD | reference | 0.3484 |
-| JPY | MKD | sell | 0.3501 |
-| KRW | MKD | reference | 0.0409 |
-| MXN | MKD | reference | 2.9714 |
-| MYR | MKD | reference | 13.4809 |
-| NOK | MKD | buy | 5.7619 |
-| NOK | MKD | reference | 5.7909 |
-| NOK | MKD | sell | 5.8199 |
-| NZD | MKD | reference | 30.8237 |
-| PHP | MKD | reference | 0.8726 |
-| PLN | MKD | reference | 14.1154 |
-| RON | MKD | reference | 11.565 |
-| RSD | MKD | reference | 0.5253 |
-| RUB | MKD | reference | 0.6568 |
-| SEK | MKD | buy | 5.4915 |
-| SEK | MKD | reference | 5.5191 |
-| SEK | MKD | sell | 5.5467 |
-| SGD | MKD | reference | 42.8989 |
-| THB | MKD | reference | 1.6409 |
-| TRY | MKD | reference | 1.1137 |
-| USD | MKD | buy | 54.7608 |
-| USD | MKD | reference | 55.036 |
-| USD | MKD | sell | 55.3112 |
-| ZAR | MKD | reference | 3.3241 |
+| AUD | MKD | buy | 37.9413 |
+| AUD | MKD | reference | 38.132 |
+| AUD | MKD | sell | 38.3227 |
+| BRL | MKD | reference | 10.7809 |
+| CAD | MKD | buy | 38.5033 |
+| CAD | MKD | reference | 38.6968 |
+| CAD | MKD | sell | 38.8903 |
+| CHF | MKD | buy | 66.1724 |
+| CHF | MKD | reference | 66.5049 |
+| CHF | MKD | sell | 66.8374 |
+| CNY | MKD | reference | 8.1955 |
+| CZK | MKD | reference | 2.5352 |
+| DKK | MKD | buy | 8.2083 |
+| DKK | MKD | reference | 8.2495 |
+| DKK | MKD | sell | 8.2907 |
+| EUR | MKD | buy | 61.355 |
+| EUR | MKD | reference | 61.6633 |
+| EUR | MKD | sell | 61.9716 |
+| GBP | MKD | buy | 72.7084 |
+| GBP | MKD | reference | 73.0738 |
+| GBP | MKD | sell | 73.4392 |
+| HKD | MKD | reference | 6.9821 |
+| HUF | MKD | reference | 0.1698 |
+| IDR | MKD | reference | 0.003 |
+| ILS | MKD | reference | 17.7081 |
+| INR | MKD | reference | 0.577 |
+| JPY | MKD | buy | 0.3451 |
+| JPY | MKD | reference | 0.3468 |
+| JPY | MKD | sell | 0.3485 |
+| KRW | MKD | reference | 0.0411 |
+| MXN | MKD | reference | 2.9808 |
+| MYR | MKD | reference | 13.4258 |
+| NOK | MKD | buy | 5.7752 |
+| NOK | MKD | reference | 5.8042 |
+| NOK | MKD | sell | 5.8332 |
+| NZD | MKD | reference | 31.0365 |
+| PHP | MKD | reference | 0.8702 |
+| PLN | MKD | reference | 14.1106 |
+| RON | MKD | reference | 11.5669 |
+| RSD | MKD | reference | 0.525 |
+| RUB | MKD | reference | 0.6557 |
+| SEK | MKD | buy | 5.5051 |
+| SEK | MKD | reference | 5.5328 |
+| SEK | MKD | sell | 5.5605 |
+| SGD | MKD | reference | 42.8366 |
+| THB | MKD | reference | 1.6399 |
+| TRY | MKD | reference | 1.1064 |
+| USD | MKD | buy | 54.5232 |
+| USD | MKD | reference | 54.7972 |
+| USD | MKD | sell | 55.0712 |
+| ZAR | MKD | reference | 3.3344 |
+
+</details>
 
 Source: [Official rates published by NBRM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbrm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -371,7 +374,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/nbrm-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/nbrm-exchange-rate)
 
 ## 📜 License
