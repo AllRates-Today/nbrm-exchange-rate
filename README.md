@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-23 by National Bank of North Macedonia — 51 rates. Updated 2026-10-23.</summary>
+<summary>Table as text: published 2026-10-26 by National Bank of North Macedonia — 51 rates. Updated 2026-10-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
