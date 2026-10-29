@@ -47,61 +47,61 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of North Macedonia — 51 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by National Bank of North Macedonia — 51 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MKD | buy | 38.6197 |
-| AUD | MKD | reference | 38.8138 |
-| AUD | MKD | sell | 39.0079 |
-| BRL | MKD | reference | 10.3219 |
-| CAD | MKD | buy | 39.1631 |
-| CAD | MKD | reference | 39.3599 |
-| CAD | MKD | sell | 39.5567 |
-| CHF | MKD | buy | 66.2792 |
-| CHF | MKD | reference | 66.6123 |
-| CHF | MKD | sell | 66.9454 |
-| CNY | MKD | reference | 8.2783 |
-| CZK | MKD | reference | 2.5276 |
-| DKK | MKD | buy | 8.1929 |
-| DKK | MKD | reference | 8.2341 |
-| DKK | MKD | sell | 8.2753 |
-| EUR | MKD | buy | 61.2354 |
-| EUR | MKD | reference | 61.5431 |
-| EUR | MKD | sell | 61.8508 |
-| GBP | MKD | buy | 73.1973 |
-| GBP | MKD | reference | 73.5651 |
-| GBP | MKD | sell | 73.9329 |
-| HKD | MKD | reference | 7.0362 |
-| HUF | MKD | reference | 0.1675 |
+| AUD | MKD | buy | 38.6669 |
+| AUD | MKD | reference | 38.8612 |
+| AUD | MKD | sell | 39.0555 |
+| BRL | MKD | reference | 10.3727 |
+| CAD | MKD | buy | 39.1416 |
+| CAD | MKD | reference | 39.3383 |
+| CAD | MKD | sell | 39.535 |
+| CHF | MKD | buy | 66.1942 |
+| CHF | MKD | reference | 66.5268 |
+| CHF | MKD | sell | 66.8594 |
+| CNY | MKD | reference | 8.2888 |
+| CZK | MKD | reference | 2.5246 |
+| DKK | MKD | buy | 8.1895 |
+| DKK | MKD | reference | 8.2307 |
+| DKK | MKD | sell | 8.2719 |
+| EUR | MKD | buy | 61.2097 |
+| EUR | MKD | reference | 61.5173 |
+| EUR | MKD | sell | 61.8249 |
+| GBP | MKD | buy | 73.0557 |
+| GBP | MKD | reference | 73.4228 |
+| GBP | MKD | sell | 73.7899 |
+| HKD | MKD | reference | 7.0435 |
+| HUF | MKD | reference | 0.1677 |
 | IDR | MKD | reference | 0.003 |
-| ILS | MKD | reference | 18.0993 |
-| INR | MKD | reference | 0.5802 |
-| JPY | MKD | buy | 0.348 |
-| JPY | MKD | reference | 0.3497 |
-| JPY | MKD | sell | 0.3514 |
-| KRW | MKD | reference | 0.0416 |
-| MXN | MKD | reference | 2.9617 |
-| MYR | MKD | reference | 13.4987 |
-| NOK | MKD | buy | 5.8946 |
-| NOK | MKD | reference | 5.9242 |
-| NOK | MKD | sell | 5.9538 |
-| NZD | MKD | reference | 31.4766 |
-| PHP | MKD | reference | 0.8625 |
-| PLN | MKD | reference | 13.9807 |
-| RON | MKD | reference | 11.506 |
-| RSD | MKD | reference | 0.5238 |
-| RUB | MKD | reference | 0.6855 |
-| SEK | MKD | buy | 5.5269 |
-| SEK | MKD | reference | 5.5547 |
-| SEK | MKD | sell | 5.5825 |
-| SGD | MKD | reference | 43.0823 |
-| THB | MKD | reference | 1.6344 |
-| TRY | MKD | reference | 1.1086 |
-| USD | MKD | buy | 54.9196 |
-| USD | MKD | reference | 55.1956 |
-| USD | MKD | sell | 55.4716 |
-| ZAR | MKD | reference | 3.3153 |
+| ILS | MKD | reference | 17.6769 |
+| INR | MKD | reference | 0.5803 |
+| JPY | MKD | buy | 0.3481 |
+| JPY | MKD | reference | 0.3498 |
+| JPY | MKD | sell | 0.3515 |
+| KRW | MKD | reference | 0.0412 |
+| MXN | MKD | reference | 2.9659 |
+| MYR | MKD | reference | 13.5533 |
+| NOK | MKD | buy | 5.9154 |
+| NOK | MKD | reference | 5.9451 |
+| NOK | MKD | sell | 5.9748 |
+| NZD | MKD | reference | 31.0176 |
+| PHP | MKD | reference | 0.8635 |
+| PLN | MKD | reference | 13.9669 |
+| RON | MKD | reference | 11.4968 |
+| RSD | MKD | reference | 0.5234 |
+| RUB | MKD | reference | 0.6862 |
+| SEK | MKD | buy | 5.5364 |
+| SEK | MKD | reference | 5.5642 |
+| SEK | MKD | sell | 5.592 |
+| SGD | MKD | reference | 43.0974 |
+| THB | MKD | reference | 1.636 |
+| TRY | MKD | reference | 1.1087 |
+| USD | MKD | buy | 54.9804 |
+| USD | MKD | reference | 55.2567 |
+| USD | MKD | sell | 55.533 |
+| ZAR | MKD | reference | 3.3192 |
 
 </details>
 
@@ -268,6 +268,7 @@ The National Bank of the Republic of North Macedonia publishes a daily exchange 
 
 - Publisher's own page: [Exchange rate list](https://www.nbrm.mk/kursna_lista-en.nspx) · [www.nbrm.mk](https://www.nbrm.mk)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of North Macedonia rates page](https://allratestoday.com/central-bank-rates-api/nbrm/)
+- In the API: usually by **02:20 UTC** (measured over the last 15 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
