@@ -24,84 +24,69 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest National Bank of North Macedonia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/nbrm?source=EUR&target=MKD"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/nbrm').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest National Bank of North Macedonia table](https://allratestoday.com/api/open/central-bank/nbrm/table.svg)](https://allratestoday.com/central-bank-rates-api/nbrm/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by National Bank of North Macedonia — 51 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by National Bank of North Macedonia — 51 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MKD | buy | 38.6669 |
-| AUD | MKD | reference | 38.8612 |
-| AUD | MKD | sell | 39.0555 |
-| BRL | MKD | reference | 10.3727 |
-| CAD | MKD | buy | 39.1416 |
-| CAD | MKD | reference | 39.3383 |
-| CAD | MKD | sell | 39.535 |
-| CHF | MKD | buy | 66.1942 |
-| CHF | MKD | reference | 66.5268 |
-| CHF | MKD | sell | 66.8594 |
-| CNY | MKD | reference | 8.2888 |
-| CZK | MKD | reference | 2.5246 |
-| DKK | MKD | buy | 8.1895 |
-| DKK | MKD | reference | 8.2307 |
-| DKK | MKD | sell | 8.2719 |
-| EUR | MKD | buy | 61.2097 |
-| EUR | MKD | reference | 61.5173 |
-| EUR | MKD | sell | 61.8249 |
-| GBP | MKD | buy | 73.0557 |
-| GBP | MKD | reference | 73.4228 |
-| GBP | MKD | sell | 73.7899 |
-| HKD | MKD | reference | 7.0435 |
-| HUF | MKD | reference | 0.1677 |
+| AUD | MKD | buy | 38.6251 |
+| AUD | MKD | reference | 38.8192 |
+| AUD | MKD | sell | 39.0133 |
+| BRL | MKD | reference | 10.3247 |
+| CAD | MKD | buy | 39.2822 |
+| CAD | MKD | reference | 39.4796 |
+| CAD | MKD | sell | 39.677 |
+| CHF | MKD | buy | 66.352 |
+| CHF | MKD | reference | 66.6854 |
+| CHF | MKD | sell | 67.0188 |
+| CNY | MKD | reference | 8.2943 |
+| CZK | MKD | reference | 2.527 |
+| DKK | MKD | buy | 8.1875 |
+| DKK | MKD | reference | 8.2286 |
+| DKK | MKD | sell | 8.2697 |
+| EUR | MKD | buy | 61.1898 |
+| EUR | MKD | reference | 61.4973 |
+| EUR | MKD | sell | 61.8048 |
+| GBP | MKD | buy | 73.2128 |
+| GBP | MKD | reference | 73.5807 |
+| GBP | MKD | sell | 73.9486 |
+| HKD | MKD | reference | 7.0419 |
+| HUF | MKD | reference | 0.168 |
 | IDR | MKD | reference | 0.003 |
-| ILS | MKD | reference | 17.6769 |
-| INR | MKD | reference | 0.5803 |
-| JPY | MKD | buy | 0.3481 |
-| JPY | MKD | reference | 0.3498 |
-| JPY | MKD | sell | 0.3515 |
-| KRW | MKD | reference | 0.0412 |
-| MXN | MKD | reference | 2.9659 |
-| MYR | MKD | reference | 13.5533 |
-| NOK | MKD | buy | 5.9154 |
-| NOK | MKD | reference | 5.9451 |
-| NOK | MKD | sell | 5.9748 |
-| NZD | MKD | reference | 31.0176 |
-| PHP | MKD | reference | 0.8635 |
-| PLN | MKD | reference | 13.9669 |
-| RON | MKD | reference | 11.4968 |
-| RSD | MKD | reference | 0.5234 |
-| RUB | MKD | reference | 0.6862 |
-| SEK | MKD | buy | 5.5364 |
-| SEK | MKD | reference | 5.5642 |
-| SEK | MKD | sell | 5.592 |
-| SGD | MKD | reference | 43.0974 |
-| THB | MKD | reference | 1.636 |
+| ILS | MKD | reference | 17.7328 |
+| INR | MKD | reference | 0.58 |
+| JPY | MKD | buy | 0.3479 |
+| JPY | MKD | reference | 0.3496 |
+| JPY | MKD | sell | 0.3513 |
+| KRW | MKD | reference | 0.0413 |
+| MXN | MKD | reference | 2.9472 |
+| MYR | MKD | reference | 13.611 |
+| NOK | MKD | buy | 5.9226 |
+| NOK | MKD | reference | 5.9524 |
+| NOK | MKD | sell | 5.9822 |
+| NZD | MKD | reference | 31.0326 |
+| PHP | MKD | reference | 0.8655 |
+| PLN | MKD | reference | 13.9964 |
+| RON | MKD | reference | 11.5075 |
+| RSD | MKD | reference | 0.5231 |
+| RUB | MKD | reference | 0.6824 |
+| SEK | MKD | buy | 5.5629 |
+| SEK | MKD | reference | 5.5909 |
+| SEK | MKD | sell | 5.6189 |
+| SGD | MKD | reference | 43.1106 |
+| THB | MKD | reference | 1.6369 |
 | TRY | MKD | reference | 1.1087 |
-| USD | MKD | buy | 54.9804 |
-| USD | MKD | reference | 55.2567 |
-| USD | MKD | sell | 55.533 |
-| ZAR | MKD | reference | 3.3192 |
+| USD | MKD | buy | 54.9773 |
+| USD | MKD | reference | 55.2536 |
+| USD | MKD | sell | 55.5299 |
+| ZAR | MKD | reference | 3.3203 |
 
 </details>
 
