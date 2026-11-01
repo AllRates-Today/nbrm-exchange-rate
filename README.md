@@ -359,6 +359,7 @@ Need the whole archive rather than an API call? The same published tables are mi
 - **Website:** [allratestoday.com](https://allratestoday.com)
 - [National Bank of North Macedonia rates page](https://allratestoday.com/central-bank-rates-api/nbrm/) — live table, publication cadence, FAQ
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
+- [Download central bank rates](https://allratestoday.com/download-central-bank-rates/) — every bank's latest table and history as Excel, CSV or JSON
 - [Package docs on the site](https://allratestoday.com/docs/sdk/nbrm-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
 - [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
