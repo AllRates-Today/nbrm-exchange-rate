@@ -32,61 +32,61 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-19 by National Bank of North Macedonia — 51 rates. Updated 2026-11-19.</summary>
+<summary>Table as text: published 2026-11-20 by National Bank of North Macedonia — 51 rates. Updated 2026-11-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | MKD | buy | 37.5713 |
-| AUD | MKD | reference | 37.7601 |
-| AUD | MKD | sell | 37.9489 |
-| BRL | MKD | reference | 9.6409 |
-| CAD | MKD | buy | 39.0176 |
-| CAD | MKD | reference | 39.2137 |
-| CAD | MKD | sell | 39.4098 |
-| CHF | MKD | buy | 66.2325 |
-| CHF | MKD | reference | 66.5653 |
-| CHF | MKD | sell | 66.8981 |
-| CNY | MKD | reference | 8.4137 |
-| CZK | MKD | reference | 2.523 |
-| DKK | MKD | buy | 8.1904 |
-| DKK | MKD | reference | 8.2316 |
-| DKK | MKD | sell | 8.2728 |
-| EUR | MKD | buy | 61.2187 |
-| EUR | MKD | reference | 61.5263 |
-| EUR | MKD | sell | 61.8339 |
-| GBP | MKD | buy | 73.5007 |
-| GBP | MKD | reference | 73.87 |
-| GBP | MKD | sell | 74.2394 |
-| HKD | MKD | reference | 7.149 |
-| HUF | MKD | reference | 0.167 |
+| AUD | MKD | buy | 37.3917 |
+| AUD | MKD | reference | 37.5796 |
+| AUD | MKD | sell | 37.7675 |
+| BRL | MKD | reference | 9.5033 |
+| CAD | MKD | buy | 38.9592 |
+| CAD | MKD | reference | 39.155 |
+| CAD | MKD | sell | 39.3508 |
+| CHF | MKD | buy | 66.1197 |
+| CHF | MKD | reference | 66.452 |
+| CHF | MKD | sell | 66.7843 |
+| CNY | MKD | reference | 8.399 |
+| CZK | MKD | reference | 2.5197 |
+| DKK | MKD | buy | 8.1935 |
+| DKK | MKD | reference | 8.2347 |
+| DKK | MKD | sell | 8.2759 |
+| EUR | MKD | buy | 61.2401 |
+| EUR | MKD | reference | 61.5478 |
+| EUR | MKD | sell | 61.8555 |
+| GBP | MKD | buy | 73.2703 |
+| GBP | MKD | reference | 73.6385 |
+| GBP | MKD | sell | 74.0067 |
+| HKD | MKD | reference | 7.1369 |
+| HUF | MKD | reference | 0.1666 |
 | IDR | MKD | reference | 0.0031 |
-| ILS | MKD | reference | 17.1871 |
-| INR | MKD | reference | 0.6003 |
-| JPY | MKD | buy | 0.3501 |
-| JPY | MKD | reference | 0.3519 |
-| JPY | MKD | sell | 0.3537 |
+| ILS | MKD | reference | 17.0261 |
+| INR | MKD | reference | 0.6002 |
+| JPY | MKD | buy | 0.3483 |
+| JPY | MKD | reference | 0.35 |
+| JPY | MKD | sell | 0.3518 |
 | KRW | MKD | reference | 0.0421 |
-| MXN | MKD | reference | 3.0199 |
-| MYR | MKD | reference | 13.6289 |
-| NOK | MKD | buy | 5.7729 |
-| NOK | MKD | reference | 5.8019 |
-| NOK | MKD | sell | 5.8309 |
-| NZD | MKD | reference | 30.8387 |
-| PHP | MKD | reference | 0.8811 |
-| PLN | MKD | reference | 13.9458 |
-| RON | MKD | reference | 11.5073 |
+| MXN | MKD | reference | 2.9598 |
+| MYR | MKD | reference | 13.6153 |
+| NOK | MKD | buy | 5.7516 |
+| NOK | MKD | reference | 5.7805 |
+| NOK | MKD | sell | 5.8094 |
+| NZD | MKD | reference | 30.9441 |
+| PHP | MKD | reference | 0.8791 |
+| PLN | MKD | reference | 13.9343 |
+| RON | MKD | reference | 11.5101 |
 | RSD | MKD | reference | 0.5231 |
-| RUB | MKD | reference | 0.6804 |
+| RUB | MKD | reference | 0.6828 |
 | SEK | MKD | buy | 5.4939 |
 | SEK | MKD | reference | 5.5215 |
 | SEK | MKD | sell | 5.5491 |
-| SGD | MKD | reference | 43.4999 |
-| THB | MKD | reference | 1.6511 |
-| TRY | MKD | reference | 1.1122 |
-| USD | MKD | buy | 55.8157 |
-| USD | MKD | reference | 56.0962 |
-| USD | MKD | sell | 56.3767 |
-| ZAR | MKD | reference | 3.2571 |
+| SGD | MKD | reference | 43.4169 |
+| THB | MKD | reference | 1.6515 |
+| TRY | MKD | reference | 1.1095 |
+| USD | MKD | buy | 55.7133 |
+| USD | MKD | reference | 55.9933 |
+| USD | MKD | sell | 56.2733 |
+| ZAR | MKD | reference | 3.2402 |
 
 </details>
 
